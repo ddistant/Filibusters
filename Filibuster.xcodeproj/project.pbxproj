@@ -17,7 +17,6 @@
 		223F070E1C4C374D00618C3C /* FBMessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F070D1C4C374D00618C3C /* FBMessageComposer.swift */; };
 		223F07101C4C3DCE00618C3C /* FBConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F070F1C4C3DCE00618C3C /* FBConversation.swift */; };
 		223F07121C4C4A9400618C3C /* FBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F07111C4C4A9400618C3C /* FBTableViewController.swift */; };
-		2242016F1C80DA63006B2BF6 /* NewCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2242016E1C80DA63006B2BF6 /* NewCollectionViewController.m */; };
 		22D918C81C587DF300878929 /* FBContactPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D918C71C587DF300878929 /* FBContactPickerViewController.swift */; };
 		22DB712C1C4E84BA001CE027 /* FBSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DB712B1C4E84BA001CE027 /* FBSettingsViewController.swift */; };
 		22EB55641C5B1C6F00E6050B /* FBMessageComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EB55631C5B1C6F00E6050B /* FBMessageComposeViewController.swift */; };
@@ -49,8 +48,6 @@
 		223F070F1C4C3DCE00618C3C /* FBConversation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBConversation.swift; sourceTree = "<group>"; };
 		223F07111C4C4A9400618C3C /* FBTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBTableViewController.swift; sourceTree = "<group>"; };
 		2242016C1C80DA62006B2BF6 /* Filibuster-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Filibuster-Bridging-Header.h"; sourceTree = "<group>"; };
-		2242016D1C80DA63006B2BF6 /* NewCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCollectionViewController.h; sourceTree = "<group>"; };
-		2242016E1C80DA63006B2BF6 /* NewCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCollectionViewController.m; sourceTree = "<group>"; };
 		22D918C71C587DF300878929 /* FBContactPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBContactPickerViewController.swift; sourceTree = "<group>"; };
 		22DB712B1C4E84BA001CE027 /* FBSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBSettingsViewController.swift; sourceTree = "<group>"; };
 		22EB55631C5B1C6F00E6050B /* FBMessageComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBMessageComposeViewController.swift; sourceTree = "<group>"; };
@@ -99,8 +96,6 @@
 				223F07091C4C329000618C3C /* FBModel.swift */,
 				223F070F1C4C3DCE00618C3C /* FBConversation.swift */,
 				223F070D1C4C374D00618C3C /* FBMessageComposer.swift */,
-				2242016D1C80DA63006B2BF6 /* NewCollectionViewController.h */,
-				2242016E1C80DA63006B2BF6 /* NewCollectionViewController.m */,
 				223F07111C4C4A9400618C3C /* FBTableViewController.swift */,
 				22EB55631C5B1C6F00E6050B /* FBMessageComposeViewController.swift */,
 				22D918C71C587DF300878929 /* FBContactPickerViewController.swift */,
@@ -231,7 +226,6 @@
 				223F06E71C4C31D500618C3C /* AppDelegate.swift in Sources */,
 				223F07101C4C3DCE00618C3C /* FBConversation.swift in Sources */,
 				223F07121C4C4A9400618C3C /* FBTableViewController.swift in Sources */,
-				2242016F1C80DA63006B2BF6 /* NewCollectionViewController.m in Sources */,
 				22EB55641C5B1C6F00E6050B /* FBMessageComposeViewController.swift in Sources */,
 				223F06EF1C4C31D500618C3C /* Filibuster.xcdatamodeld in Sources */,
 				223F070E1C4C374D00618C3C /* FBMessageComposer.swift in Sources */,
