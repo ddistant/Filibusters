@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		223F06E71C4C31D500618C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F06E61C4C31D500618C3C /* AppDelegate.swift */; };
+		223F06EC1C4C31D500618C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223F06EA1C4C31D500618C3C /* Main.storyboard */; };
+		223F06EF1C4C31D500618C3C /* Filibuster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 223F06ED1C4C31D500618C3C /* Filibuster.xcdatamodeld */; };
+		223F06F11C4C31D500618C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223F06F01C4C31D500618C3C /* Assets.xcassets */; };
+		223F06F41C4C31D500618C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223F06F21C4C31D500618C3C /* LaunchScreen.storyboard */; };
+		223F06FF1C4C31D500618C3C /* FilibusterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F06FE1C4C31D500618C3C /* FilibusterTests.swift */; };
+		223F070A1C4C329000618C3C /* FBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F07091C4C329000618C3C /* FBModel.swift */; };
+		223F070E1C4C374D00618C3C /* FBMessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F070D1C4C374D00618C3C /* FBMessageComposer.swift */; };
+		223F07101C4C3DCE00618C3C /* FBConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F070F1C4C3DCE00618C3C /* FBConversation.swift */; };
+		223F07121C4C4A9400618C3C /* FBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F07111C4C4A9400618C3C /* FBTableViewController.swift */; };
+		2242016F1C80DA63006B2BF6 /* NewCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2242016E1C80DA63006B2BF6 /* NewCollectionViewController.m */; };
+		22D918C81C587DF300878929 /* FBContactPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D918C71C587DF300878929 /* FBContactPickerViewController.swift */; };
+		22DB712C1C4E84BA001CE027 /* FBSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DB712B1C4E84BA001CE027 /* FBSettingsViewController.swift */; };
+		22EB55641C5B1C6F00E6050B /* FBMessageComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EB55631C5B1C6F00E6050B /* FBMessageComposeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		223F06FB1C4C31D500618C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 223F06DB1C4C31D500618C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 223F06E21C4C31D500618C3C;
+			remoteInfo = Filibuster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		223F06E31C4C31D500618C3C /* Filibuster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Filibuster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		223F06E61C4C31D500618C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		223F06EB1C4C31D500618C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		223F06EE1C4C31D500618C3C /* Filibuster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Filibuster.xcdatamodel; sourceTree = "<group>"; };
+		223F06F01C4C31D500618C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		223F06F31C4C31D500618C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		223F06F51C4C31D500618C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223F06FA1C4C31D500618C3C /* FilibusterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilibusterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		223F06FE1C4C31D500618C3C /* FilibusterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilibusterTests.swift; sourceTree = "<group>"; };
+		223F07001C4C31D500618C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223F07091C4C329000618C3C /* FBModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBModel.swift; sourceTree = "<group>"; };
+		223F070D1C4C374D00618C3C /* FBMessageComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBMessageComposer.swift; sourceTree = "<group>"; };
+		223F070F1C4C3DCE00618C3C /* FBConversation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBConversation.swift; sourceTree = "<group>"; };
+		223F07111C4C4A9400618C3C /* FBTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBTableViewController.swift; sourceTree = "<group>"; };
+		2242016C1C80DA62006B2BF6 /* Filibuster-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Filibuster-Bridging-Header.h"; sourceTree = "<group>"; };
+		2242016D1C80DA63006B2BF6 /* NewCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCollectionViewController.h; sourceTree = "<group>"; };
+		2242016E1C80DA63006B2BF6 /* NewCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCollectionViewController.m; sourceTree = "<group>"; };
+		22D918C71C587DF300878929 /* FBContactPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBContactPickerViewController.swift; sourceTree = "<group>"; };
+		22DB712B1C4E84BA001CE027 /* FBSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBSettingsViewController.swift; sourceTree = "<group>"; };
+		22EB55631C5B1C6F00E6050B /* FBMessageComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBMessageComposeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		223F06E01C4C31D500618C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223F06F71C4C31D500618C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		223F06DA1C4C31D500618C3C = {
+			isa = PBXGroup;
+			children = (
+				223F06E51C4C31D500618C3C /* Filibuster */,
+				223F06FD1C4C31D500618C3C /* FilibusterTests */,
+				223F06E41C4C31D500618C3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		223F06E41C4C31D500618C3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				223F06E31C4C31D500618C3C /* Filibuster.app */,
+				223F06FA1C4C31D500618C3C /* FilibusterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		223F06E51C4C31D500618C3C /* Filibuster */ = {
+			isa = PBXGroup;
+			children = (
+				223F06E61C4C31D500618C3C /* AppDelegate.swift */,
+				223F07091C4C329000618C3C /* FBModel.swift */,
+				223F070F1C4C3DCE00618C3C /* FBConversation.swift */,
+				223F070D1C4C374D00618C3C /* FBMessageComposer.swift */,
+				2242016D1C80DA63006B2BF6 /* NewCollectionViewController.h */,
+				2242016E1C80DA63006B2BF6 /* NewCollectionViewController.m */,
+				223F07111C4C4A9400618C3C /* FBTableViewController.swift */,
+				22EB55631C5B1C6F00E6050B /* FBMessageComposeViewController.swift */,
+				22D918C71C587DF300878929 /* FBContactPickerViewController.swift */,
+				22DB712B1C4E84BA001CE027 /* FBSettingsViewController.swift */,
+				223F06EA1C4C31D500618C3C /* Main.storyboard */,
+				223F06F01C4C31D500618C3C /* Assets.xcassets */,
+				223F06F21C4C31D500618C3C /* LaunchScreen.storyboard */,
+				223F06F51C4C31D500618C3C /* Info.plist */,
+				223F06ED1C4C31D500618C3C /* Filibuster.xcdatamodeld */,
+				2242016C1C80DA62006B2BF6 /* Filibuster-Bridging-Header.h */,
+			);
+			path = Filibuster;
+			sourceTree = "<group>";
+		};
+		223F06FD1C4C31D500618C3C /* FilibusterTests */ = {
+			isa = PBXGroup;
+			children = (
+				223F06FE1C4C31D500618C3C /* FilibusterTests.swift */,
+				223F07001C4C31D500618C3C /* Info.plist */,
+			);
+			path = FilibusterTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		223F06E21C4C31D500618C3C /* Filibuster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223F07031C4C31D500618C3C /* Build configuration list for PBXNativeTarget "Filibuster" */;
+			buildPhases = (
+				223F06DF1C4C31D500618C3C /* Sources */,
+				223F06E01C4C31D500618C3C /* Frameworks */,
+				223F06E11C4C31D500618C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Filibuster;
+			productName = Filibuster;
+			productReference = 223F06E31C4C31D500618C3C /* Filibuster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		223F06F91C4C31D500618C3C /* FilibusterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223F07061C4C31D500618C3C /* Build configuration list for PBXNativeTarget "FilibusterTests" */;
+			buildPhases = (
+				223F06F61C4C31D500618C3C /* Sources */,
+				223F06F71C4C31D500618C3C /* Frameworks */,
+				223F06F81C4C31D500618C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				223F06FC1C4C31D500618C3C /* PBXTargetDependency */,
+			);
+			name = FilibusterTests;
+			productName = FilibusterTests;
+			productReference = 223F06FA1C4C31D500618C3C /* FilibusterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		223F06DB1C4C31D500618C3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ddistant;
+				TargetAttributes = {
+					223F06E21C4C31D500618C3C = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = N2DCZ2U592;
+					};
+					223F06F91C4C31D500618C3C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 223F06E21C4C31D500618C3C;
+					};
+				};
+			};
+			buildConfigurationList = 223F06DE1C4C31D500618C3C /* Build configuration list for PBXProject "Filibuster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 223F06DA1C4C31D500618C3C;
+			productRefGroup = 223F06E41C4C31D500618C3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				223F06E21C4C31D500618C3C /* Filibuster */,
+				223F06F91C4C31D500618C3C /* FilibusterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		223F06E11C4C31D500618C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223F06F41C4C31D500618C3C /* LaunchScreen.storyboard in Resources */,
+				223F06F11C4C31D500618C3C /* Assets.xcassets in Resources */,
+				223F06EC1C4C31D500618C3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223F06F81C4C31D500618C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		223F06DF1C4C31D500618C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DB712C1C4E84BA001CE027 /* FBSettingsViewController.swift in Sources */,
+				223F070A1C4C329000618C3C /* FBModel.swift in Sources */,
+				223F06E71C4C31D500618C3C /* AppDelegate.swift in Sources */,
+				223F07101C4C3DCE00618C3C /* FBConversation.swift in Sources */,
+				223F07121C4C4A9400618C3C /* FBTableViewController.swift in Sources */,
+				2242016F1C80DA63006B2BF6 /* NewCollectionViewController.m in Sources */,
+				22EB55641C5B1C6F00E6050B /* FBMessageComposeViewController.swift in Sources */,
+				223F06EF1C4C31D500618C3C /* Filibuster.xcdatamodeld in Sources */,
+				223F070E1C4C374D00618C3C /* FBMessageComposer.swift in Sources */,
+				22D918C81C587DF300878929 /* FBContactPickerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223F06F61C4C31D500618C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223F06FF1C4C31D500618C3C /* FilibusterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		223F06FC1C4C31D500618C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 223F06E21C4C31D500618C3C /* Filibuster */;
+			targetProxy = 223F06FB1C4C31D500618C3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		223F06EA1C4C31D500618C3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				223F06EB1C4C31D500618C3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		223F06F21C4C31D500618C3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				223F06F31C4C31D500618C3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		223F07011C4C31D500618C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		223F07021C4C31D500618C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		223F07041C4C31D500618C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Filibuster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddistant.Filibuster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Filibuster/Filibuster-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		223F07051C4C31D500618C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Filibuster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddistant.Filibuster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Filibuster/Filibuster-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		223F07071C4C31D500618C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FilibusterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddistant.FilibusterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Filibuster.app/Filibuster";
+			};
+			name = Debug;
+		};
+		223F07081C4C31D500618C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FilibusterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddistant.FilibusterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Filibuster.app/Filibuster";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		223F06DE1C4C31D500618C3C /* Build configuration list for PBXProject "Filibuster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223F07011C4C31D500618C3C /* Debug */,
+				223F07021C4C31D500618C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		223F07031C4C31D500618C3C /* Build configuration list for PBXNativeTarget "Filibuster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223F07041C4C31D500618C3C /* Debug */,
+				223F07051C4C31D500618C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		223F07061C4C31D500618C3C /* Build configuration list for PBXNativeTarget "FilibusterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223F07071C4C31D500618C3C /* Debug */,
+				223F07081C4C31D500618C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		223F06ED1C4C31D500618C3C /* Filibuster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				223F06EE1C4C31D500618C3C /* Filibuster.xcdatamodel */,
+			);
+			currentVersion = 223F06EE1C4C31D500618C3C /* Filibuster.xcdatamodel */;
+			path = Filibuster.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 223F06DB1C4C31D500618C3C /* Project object */;
+}
