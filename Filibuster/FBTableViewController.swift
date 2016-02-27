@@ -155,15 +155,23 @@ class FBTableViewController: UITableViewController, CNContactPickerDelegate, UIP
         
         navigationController?.popViewControllerAnimated(true)
         
-        //contact doesn't work
+    // MARK: - Contact doesn't work
         
-//        fetchedContact = contact
+        fetchedContact = contact
         
         if messageComposer.canSendText(messageViewController) {
             
-            let pn = String(fetchedContact.phoneNumbers.first?.value)
+            let pn = fetchedContact.phoneNumbers.first?.value as! CNPhoneNumber
             
-            messageViewController.recipients?.append(pn)
+            let pn1 : NSString = pn.stringValue.stringByReplacingOccurrencesOfString("(", withString: "")
+            
+            let pn2 : NSString = pn1.stringByReplacingOccurrencesOfString(")", withString: "")
+            
+            let pn3 : NSString = pn2.stringByReplacingOccurrencesOfString("-", withString: "")
+            
+            let pn4 : NSString = pn3.stringByReplacingOccurrencesOfString(" ", withString: "")
+            
+            messageViewController.recipients?.append("\(pn4)")
             
             dispatch_async(dispatch_get_main_queue(), {
                 self.showMessageViewController()
